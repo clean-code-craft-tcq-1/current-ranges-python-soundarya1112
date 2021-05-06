@@ -5,7 +5,7 @@ def check_valid_input(current_ranges):
         return 'Invalid_Input'
     return True
 
-def check_is_nan(current_rages)
+def check_is_nan(current_rages):
     if np.isnan(current_rages):
         return 'Valid Input'
     return False
