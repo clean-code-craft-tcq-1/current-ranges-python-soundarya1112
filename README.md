@@ -44,13 +44,13 @@ Start test-driven development:
 1. Establish quality parameters for your project: What is the maximum complexity you would allow? How much duplication would you consider unacceptable? What is the coverage you'll aim for?
 Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
-1. Write the smallest possible failing test.
+1. Write the smallest possible failing test. - test_empty_current_ranges
 
-1. Write the minimum amount of code that'll make it pass.
+1. Write the minimum amount of code that'll make it pass. -  check_empty_input
 
-1. Write the next failing test.
+1. Write the next failing test. - test_is_nan_current_ranges
 
 Implement one failing test and at least one passing test:
 
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+test_empty_current_ranges - the name of a **passing** test
+test_is_nan_current_ranges - the name of a **failing** test
