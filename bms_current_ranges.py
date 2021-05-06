@@ -1,8 +1,8 @@
 import numpy as np
 
-def check_valid_input(current_ranges):
+def check_empty_input(current_ranges):
     if len(current_ranges) == 0:
-        return 'Invalid_Input'
+        return 'Empty_Input'
     return True
 
 def check_is_nan(current_rages):
