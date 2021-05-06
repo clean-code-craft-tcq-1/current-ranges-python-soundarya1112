@@ -8,7 +8,7 @@ class test_battery_current_ranges(unittest.TestCase):
     
   def test_passing_current_ranges(self):
     current_valid_input = [4,3,2,1]
-    self.assertEqual((bms_current_ranges.is_input_nan(current_valid_input) == "Valid Input")
+    self.assertEqual((bms_current_ranges.check_is_nan(current_valid_input) == "Valid Input")
     
     
 if __name__ == '__main__':
